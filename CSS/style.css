@@ -54,6 +54,10 @@ nav .manu a{
     width: 139px;
 
 }
+.logo img:hover{
+    cursor: pointer;
+
+}
 
 .btn{
     background-color: #469165;
@@ -84,11 +88,11 @@ nav .manu a{
 
 
 .hero-background{
-      width: 100%;
-      min-height: 674px;
-     background-image:linear-gradient(rgba(11, 39, 61, 0.5), rgba(7, 32, 86, 0.5)), url("../assets/hero-bg.png");
-     background-size: cover;
-     background-attachment: fixed;
+    width: 100%;
+    min-height: 674px;
+    background-image:linear-gradient(rgba(11, 39, 61, 0.5), rgba(7, 32, 86, 0.5)), url("../assets/hero-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -417,6 +421,7 @@ nav .manu a{
    .footer-img img{
     height: 50px;
     margin-bottom: 10px;
+    cursor: pointer;
    }
 
    footer .copyright{
@@ -464,10 +469,11 @@ nav .manu a{
     font-size: 20px;
 
    }
+
  .footer-line{
     border:none;
     height: 1px;
-    width: 70%;
+    width: 77%;
     background-color: #29395a;
     margin:40px auto 20px;
     /* margin-bottom: 10px; */
