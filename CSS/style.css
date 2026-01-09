@@ -68,6 +68,10 @@ nav .manu a{
 
 }
 
+.btn:hover{
+    background-color: #000000;
+    transform: translateY(-1px);
+}
 .manu{
     list-style: none;
     display: flex;
@@ -144,6 +148,15 @@ nav .manu a{
     align-items: center;
 }
 
+#btn1:hover{
+     background-color: #000000;
+     transform: translateY(-1px);
+}
+#btn2:hover{
+     background-color: #000000;
+     transform: translateX(-1px);
+}
+
 #btn1{
     background-color: #469165;
     color:#FFFFFF;
@@ -179,124 +192,79 @@ nav .manu a{
     background: transparent;
 }
 
-#part-2{
-
-    align-items: center;
-    background-color: #fafafa;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    max-width: 1630px;
-    height: auto;
-   
-
+#part-2 {
+  background: #fafafa;
+  padding: 80px 20px;
 }
 
-#part-2 .notes-section{
-    background-color: #ffffff;
-
+#part-2 .notes-section {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-
-#part-2 .note-div{
-    display: flex;
-    justify-content: space-between;
-    gap:15px
-
-
-
+#part-2 h2 {
+  color: #001931;
+  margin-bottom: 10px;
 }
 
-#part-2 .notes-section h2{
-    color: #001931;
-    padding: 50px 0 10px 0;
-
-}
-
-#part-2 .notes-section p{
-    color: #627382;
-    padding: 0px 0 44px 0;
-
-}
-
-.note-div{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+#part-2 .notes-section p {
+  color: #627382;
+  margin-bottom: 50px;
 }
 
 
-#part-2 .note-div .div1{
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-    box-shadow: 0.5px 0.2px 12px 1px rgb(63, 63, 63);
-    width: 322px;
-    height: 300px;
-    align-items: center;
-    color: #001931;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-
-
-   
-
+.note-div {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 
-#part-2 .note-div .div2{
-   
-   background-color: #FFFFFF;
-    box-sizing: border-box;
-    box-shadow: 0.5px 0.2px 12px 1px rgb(63, 63, 63);
-    width: 322px;
-    height: 300px;
-    align-items: center;
-    color: #001931;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-     
-
+.note-div .card {
+  background: #fff;
+  width: 280px;
+  height: 300px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.2s;
 }
 
-#part-2 .note-div .div3{
-  background-color: #FFFFFF;
-    box-sizing: border-box;
-   box-shadow: 0.5px 0.2px 12px 1px rgb(63, 63, 63);
-    width: 322px;
-    height: 300px;
-    align-items: center;
-    color: #001931;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    
-
+.note-div .card:hover {
+  transform: translateY(-1px);
 }
 
-#part-2 .note-div .div4{
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-    box-shadow: 0.5px 0.2px 12px 1px rgb(63, 63, 63);
-    width: 322px;
-    height: 300px;
-    align-items: center;
-    color: #001931;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
 
+.note-div .card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 16px;
+  background:#F95555;
+  border: none;
+  border-radius: 50%;
 }
 
-/* section-3*/
+
+.note-div .card h3 {
+  margin-bottom: 10px;
+  color: #001931;
+}
+
+
+.note-div .card p {
+  color: #627382;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
 
 #part-3 .part-3-container{
     display: flex;
@@ -306,9 +274,58 @@ nav .manu a{
     width: 1360px;
     height: 600px;
     box-sizing: border-box;
-    align-items: center;
+    /* margin-top: auto; */
+    /* align-items: center; */
 
 }
+
+.part-3-text h5{
+    color: #469165;
+    font-size: 16;
+    font-weight: 400;
+    margin-bottom: 16px;
+
+}
+
+.part-3-text h1{
+    color: #001931;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 12px;
+
+}
+
+.part-3-text p{
+    color: #627382;
+    font-size: 16;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+
+.part-3-text h6{
+    color: #627382;
+    font-size: 16;
+    font-weight: 600;
+    margin:0 auto 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.part-3-text #ch{
+    
+   
+    margin-top: 0px;
+    padding: 0;
+    width: 17px;
+
+
+}
+    
+    
     
 
 /*part-4*/
@@ -377,33 +394,89 @@ nav .manu a{
 
    footer{
     background-color: #001931;
-    max-width: 1600px;
-    height: 348px;
+    width: 100%;
+    padding: 100px 0 60px;
+    /* height: auto; */
+    /* padding-top:100px; */
    }
 
-   footer #last-part{
-    display: flex;
-    justify-content: space-between;
+   #last-part{
+    background-color: #001931;
+    padding: 0px 60px;
    }
 
    #last-part .fotter-container{
     display: flex;
-    justify-content: center;
-    gap:1200px;
+    justify-content: space-between;
+    max-width:1200px;
     align-items: center;
-
-
-   }
-
-   fotter .social{
-    color: #FFFFFF;
+   margin: 0 auto;
     
    }
 
-   footer .copyright{
-    position: relative;
-    text-align: bottom;
+   .footer-img img{
+    height: 50px;
+    margin-bottom: 10px;
    }
+
+   footer .copyright{
+   
+    text-align: center;
+    padding : 0;
+    margin-top: 30px;
+   }
+
+   .social{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+
+
+
+   }
+   .social-icons{
+    
+    display: flex;
+    margin-top: 5px;
+    gap: 5px;
+
+   }
+   .social-icons i{
+    color: #001931;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+  
+ 
+   }
+
+
+   .social p{
+    color: #FFFFFF;
+    /* margin-bottom: 10px; */
+    font-weight: 400;
+    font-size: 20px;
+
+   }
+ .footer-line{
+    border:none;
+    height: 1px;
+    width: 70%;
+    background-color: #29395a;
+    margin:40px auto 20px;
+    /* margin-bottom: 10px; */
+    
+
+ }
+   
+
+   
 
 
 
