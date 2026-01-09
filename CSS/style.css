@@ -8,8 +8,7 @@
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+ 
 }
 
 
@@ -19,8 +18,10 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    /* margin: 24px 24px 120px 125px; */
-    padding: 24px 24px 120px 100px;
+    /* margin: 24px 0 120px 125px; */
+    /* padding: 24px auto 120px 100px; */
+    padding: 24px;
+
     
 }
 
@@ -72,3 +73,126 @@ nav .manu a{
     display: flex;
     gap: 40px;
 }
+
+#hero-container{
+    width: 100%;
+}
+
+
+.hero-background{
+      width: 100%;
+      min-height: 674px;
+     background-image:linear-gradient(rgba(11, 39, 61, 0.5), rgba(7, 32, 86, 0.5)), url("../assets/hero-bg.png");
+     background-size: cover;
+     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+   
+}
+
+#hero-containaer .hero-card{
+   
+    width: 1360px;
+    height: 679px;
+    align-items: center; 
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap:32px;
+    justify-content: space-between;
+}
+    
+
+
+.hero-card{
+    text-align: center;
+    
+}
+
+#hero-container .hero-background .hero-card .hero-paragraph{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    color:#469165 ;
+    font-size:16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 8px 12px;
+    /* text-align: center; */
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+#hero-container .hero-background .hero-card p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin-top: 5px;
+}
+
+#hero-btn{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    align-items: center;
+}
+
+#btn1{
+    background-color: #469165;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    padding: 13px 13px;
+    display: inline-flex;
+    justify-content: center;
+    gap:10px
+    
+
+}
+
+#btn1-arrow{
+    object-fit: contain;
+    width: 16px;
+    height: 16px;
+    
+
+}
+ #btn2 {
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 5px; 
+    cursor: pointer;
+    padding: 12px 12px; 
+    background: transparent;
+}
+
+#part-2{
+
+    align-items: center;
+    
+
+}
+
+#part-1n .notes-section{
+    background-color: #000000;
+
+
+}
+    
+
+   
+
+
